@@ -74,7 +74,15 @@ h5{
     font-family: 'Alfa slab one', garamond, serif;
     text-align: center;
 }
+section{
 
+}
+
+p{
+
+
+    
+}
 /* Root */
 
 html {
@@ -128,13 +136,50 @@ h1 {
 
 
 /* Section & Paragraph */
+section{
+margin-top: 8px;
+}
 
+p{
+margin-top: 16px;
+margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 90%;
+    
+}
 
 
 /* Image & Figure */
+img{
+width: 100%;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: auto;
+margin-right: auto;
+max-width: 800px;
 
+}
+ figure{
+margin-bottom: 32px;
 
-
+ }
+figcaption{
+padding-top: 16px;
+text-align: right;
+}
 /* Footer */
+footer{
+padding-top: 16px;
+padding: bottom 16px; ;
+padding: left 16px; ;
+padding-right: 16px;
+border-top: solid #333;
+width: 32px;
 
+}
 
