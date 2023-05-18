@@ -78,31 +78,76 @@ header, footer {
 
 
 /* Imported Typfaces */
-{@font-face {
+@font-face {
     font-family: face;
     src: url(../fonts/josefinslab-regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face}
+@font-face{
+    font-family: face2;
+    src: url(../fonts/montserrat-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
 
 /* Typography Styles */
-html {}
+html {
+    font-family: face2, Arial, sans-serif ;
 
-h1{}
+}
 
-h2{}
-h2 + p {}
+h1{
+    font-family: face, Arial, sans-serif ;
+    letter-spacing: 2px rem;
+    font-size: 60px rem;
+    margin: 18px rem;
+    text-align: center;
+    
+}
 
-p {}
+h2{
 
-li {}
+    font-family: face, Arial, sans-serif ;
+    letter-spacing: 2px rem;
+    font-size: 24px rem;
+}
+h2 + p {
+    font-family: face, Arial, sans-serif ;
+    letter-spacing: 2px rem;
+    text-indent: 24px rem;
+}
 
-figcaption {}
+p {
+    font-size: 12px rem;
+    letter-spacing: .5px rem;
+    word-spacing: 2px rem;
+
+
+}
+
+li {
+    font-size: 12px rem;
+    letter-spacing: .5px rem;
+    word-spacing: 2px rem;
+    outline: none;
+    color: 33658A;
+
+
+
+
+}
+
+figcaption {
+
+    font-size: 12px rem;
+    margin-bottom: 32px rem;
+
+}
 
 
 
@@ -113,10 +158,17 @@ figcaption {}
 a {}
 
 a:link,
-a:visited{}
+a:visited{
+    color: 33658A;
+    text-decoration: none;
+
+}
 
 a:focus,
-a:hover {}
+a:hover {
+
+    text-decoration: none;
+}
 
 
 
@@ -124,11 +176,26 @@ a:hover {}
 
 /* List Styling */
 
-ul{}
+ul{
 
-ol{}
+    margin-bottom: 16px rem;
+    margin-left: 0px rem;
+    margin-right: 0px rem;
+    list-style-type: square;
+}
 
-.long-list a:hover{}
+ol{
+    margin-bottom: 16px rem;
+    margin-left: 0px rem;
+    margin-right: 0px rem;
+    text-transform: lowercase;
+}
+
+.long-list a:hover{
+    
+    text-transform: uppercase;
+
+}
 
 
 
@@ -137,11 +204,28 @@ ol{}
 
 
 /* Navigation Menu */
-nav{}
+nav{
+
+    padding-left: 0;
+    margin-top: 4px rem;
+    text-decoration:none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 18px rem;
+    margin-bottom: 24px rem;
+    border: solid;
+    width: 1px rem;
+    color: 33658A;
+}
 nav a {}
 
 nav a:focus,
-nav a  :active{}
+nav a  :active{
+    background-color: 000;
+    color: FFF;
+}
 
 
 
@@ -151,7 +235,7 @@ nav a  :active{}
 /* Footer Styles */
 footer{
 
-
+text-align: left;
     
 }
 
