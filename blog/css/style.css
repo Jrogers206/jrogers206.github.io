@@ -12,7 +12,7 @@
 
             - width, max-width, min-width
             - height, max-height, min-height
-
+````````
         Typography 
 
             - font-family, font-size, font-style, font-weight
@@ -48,4 +48,108 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+body {
+    
+    
+}
+
+header, footer {
+    border-top: .125rem solid #273b49;
+    border-bottom: .125rem solid #33658A;
+    clear: both;
+    
+  }
+
+
+
+  @font-face {
+    font-family: face;
+    src: url(../fonts/josefinslab-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: face2;
+    src: url(../fonts/montserrat-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: face, Arial, sans-serif ;
+    letter-spacing: 2px rem;
+    font-size: 60px rem;
+    margin: 18px rem;
+    text-align: center;
+    
+}
+
+h2{
+    margin-top: auto;
+    font-family: face, Arial, sans-serif ;
+    letter-spacing: 2px rem;
+    font-size: 24px rem;
+
+}
+
+nav{    
+    padding-left: 0;
+    margin-top: 4px rem;
+    text-decoration:none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 18px rem;
+    margin-bottom: 24px rem;
+    border: solid;
+    width: 1px rem;
+    color: 33658A;
+
+    
+}
+
+
+.main-section { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+   
+    
+}
+article{
+   
+}
+
+
+.right-section{
+    
+   
+
+
+}
+aside{
+    
+    
+    
+    
+}
+
+ .subsection{
+    
+    
+      
+ }
+ .subsection img{
+    float: left;
+  width: 33.33%;
+  
+    
+    
+    
+   
+  
+    
+ }
 
